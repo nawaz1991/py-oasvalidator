@@ -1,0 +1,6 @@
+# ignore third_party code from clang-format checks
+rapidjson/*
+build/*
+cmake-build-debug/*
+
+

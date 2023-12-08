@@ -1,5 +1,10 @@
-.idea
 /cmake-build-debug
-/build
-/venv
-/py_osavalidator.egg-info
+/.idea
+build/
+dist/
+_build/
+_generate/
+*.so
+*.py[cod]
+*.egg-info
+*env*
