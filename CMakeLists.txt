@@ -6,7 +6,7 @@ add_subdirectory(thirdparty/pybind11)
 
 include_directories(include)
 include_directories(thirdparty/cpp-oasvalidator/include)
-include_directories(thirdparty/cpp-oasvalidator/thirdparty/cpp-oasvalidator/rapidjson/include)
+include_directories(thirdparty/cpp-oasvalidator/rapidjson/include)
 
 # Recursively collect all .cpp files from the cpp-oasvalidator source
 file(GLOB_RECURSE CPP_OASVALIDATOR_SRC
