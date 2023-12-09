@@ -131,7 +131,7 @@ setup(
     author="Muhammad Nawaz",
     author_email="m.nawaz2003@gmail.com",
     description="A FAST Python module to validate the HTTP requests against the OpenAPI specifications of the REST server.",
-    long_description="",
+    long_description="Test",
     ext_modules=[CMakeExtension("oasvalidator")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
