@@ -4,7 +4,7 @@ project(py-oasvalidator LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
-find_package(Python REQUIRED COMPONENTS Interpreter Development)
+#find_package(Python REQUIRED COMPONENTS Interpreter Development)
 add_subdirectory(thirdparty/pybind11)
 
 include_directories(include)
