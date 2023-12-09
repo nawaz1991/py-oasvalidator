@@ -3,7 +3,7 @@ graft thirdparty/pybind11/include
 graft thirdparty/pybind11/tools
 graft thirdparty/cpp-oasvalidator/src
 graft thirdparty/cpp-oasvalidator/include
-graft thirdparty/cpp-oasvalidator/thirdparty/cpp-oasvalidator/rapidjson/include
+graft thirdparty/cpp-oasvalidator/rapidjson/include
 graft include
 graft src
 global-include CMakeLists.txt *.cmake
