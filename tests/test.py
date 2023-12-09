@@ -1,4 +1,4 @@
 import oasvalidator
 
 def test_validate():
-    oasvalidator.init("Hi")
+    oasvalidator.init("thirdparty/cpp-oasvalidator/data/openAPI_example.json")
