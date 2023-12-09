@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.4...3.18)
 project(py-oasvalidator LANGUAGES CXX)
 
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
 find_package(Python REQUIRED COMPONENTS Interpreter Development)
 add_subdirectory(thirdparty/pybind11)
 
@@ -28,7 +31,7 @@ pybind11_add_module(oasvalidator ${SOURCES})
 
 target_link_libraries(oasvalidator PRIVATE pybind11::module pybind11::lto pybind11::windows_extras)
 
-pybind11_extension(oasvalidator)
+#pybind11_extension(oasvalidator)
 if(NOT MSVC AND NOT ${CMAKE_BUILD_TYPE} MATCHES Debug|RelWithDebInfo)
     # Strip unnecessary sections of the binary on Linux/macOS
     pybind11_strip(oasvalidator)
